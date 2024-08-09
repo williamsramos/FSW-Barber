@@ -22,13 +22,14 @@ const Home = async () => {
       <Header />
       <div className="p-5">
         {/* TEXTO */}
-        <h2 className="text-xl font-bold">Olá, Felipe!</h2>
+        <h2 className="text-xl font-bold">Olá, William!</h2>
         <p>Segunda-feira, 05 de agosto.</p>
 
         {/* BUSCA */}
         <div className="mt-6">
           <Search />
         </div>
+
         {/* BUSCA RÁPIDA */}
         <div className="mt-6 flex gap-3 overflow-x-scroll [&::-webkit-scrollbar]:hidden">
           {quickSearchOptions.map((option) => (
